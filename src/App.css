@@ -11,10 +11,21 @@
   height: 30px;
   border: solid black 1px;
   box-sizing: border-box;
+  color: orange;
+  display: flex;
 }
 img{
   height: 100%;
 }
 .show_false img{
   display: none;
+}
+.show_false p{
+  display: none;
+}
+.show_true{
+  background-color: aqua;
+}
+p{
+  margin: auto;
 }
