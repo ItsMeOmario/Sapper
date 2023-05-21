@@ -1,17 +1,32 @@
+body{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+input{
+  margin: 10px 0;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+  background-color: black;
+}
+#root{
+  margin: 0 auto;
+}
 .App {
-  width: 450px;
-  height: 450px;
-  border: solid black 1px;
+  height: 900px;
+  aspect-ratio: 1;
+  border: solid rgb(255, 255, 255) 1px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 .Cell{
-  width: 30px;
-  height: 30px;
-  border: solid black 1px;
+  height: 45px;
+  aspect-ratio: 1;
+  border: solid rgb(255, 255, 255) 1px;
   box-sizing: border-box;
-  color: orange;
+  color: rgb(255, 255, 255);
   display: flex;
 }
 img{
@@ -24,7 +39,7 @@ img{
   display: none;
 }
 .show_true{
-  background-color: aqua;
+  background-color: rgb(5, 0, 68);
 }
 p{
   margin: auto;
